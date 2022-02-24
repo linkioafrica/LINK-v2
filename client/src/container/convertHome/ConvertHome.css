@@ -1,0 +1,74 @@
+.convert-container {
+  border: 1px solid #ce3;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.convert-para {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.global-div {
+  width: 100%;
+  height: 600px;
+  margin: 40px 0;
+  border-radius: 20px;
+}
+
+.send-container {
+  border: 1px solid rgb(238, 51, 51);
+  background: var(--navy-blue);
+  display: flex;
+  flex-direction: row;
+}
+
+.rate-div {
+  width: 50%;
+  /* gap: 0 10px; */
+  border: 1px solid;
+  padding: 10px 40px;
+}
+
+.send-money {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.without-border {
+  margin-bottom: 20px;
+}
+
+.thousands {
+  word-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+.send-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.premium-container {
+  /* border: 1px solid rgb(19, 76, 199); */
+  background-image: url("../../assets/premium.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: center center;
+  position: relative;
+}
+
+.premium-para {
+  color: var(--white);
+  position: absolute;
+  word-spacing: 3px;
+  /* line-height: 4px; */
+  bottom: 12%;
+  left: 4%;
+  width: 50%;
+}

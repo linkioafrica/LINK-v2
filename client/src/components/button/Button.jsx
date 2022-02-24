@@ -1,8 +1,11 @@
 import "./Button.css";
 
-const Button = ({ text }) => {
+const Button = ({ bgColor, text, border }) => {
   return (
-    <div className="button">
+    <div
+      style={{ backgroundColor: bgColor, border: border }}
+      className="button"
+    >
       <a className="circularstd-medium-white-24px" href="./login">
         {text}
       </a>

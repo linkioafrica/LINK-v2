@@ -11,13 +11,13 @@ const Header = () => {
           </h1>
         </div>
         <div className="header-text">
-          <p className="circularstd-book-normal-black-18px">
+          <p className="circularstd-book-normal-black-18px-bold">
             Open a free account in minutes and Make the most of your Cash today.
           </p>
         </div>
         <div className="header-image"></div>
         <div className="header-button">
-          <Button text={"Get Started"} />
+          <Button text={"Get Started"} bgColor={"#30ae4d"} />
         </div>
       </div>
     </div>
