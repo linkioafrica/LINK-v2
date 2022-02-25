@@ -20,7 +20,9 @@ const Navbar = () => {
   return (
     <div className="link__navbar circularstd-book-normal-black-18px">
       <div className="link__navbar-links_logo">
-        <img src={logo} alt="logo" />
+        <a href="./">
+          <img src={logo} alt="logo" />
+        </a>
       </div>
       <div className="link__navbar-links">
         <div className="link__navbar-links_container">
