@@ -1,8 +1,9 @@
+/* eslint-disable no-unused-vars */
 // Import components from './components' folder
-import { Navbar, Flag, CardHome } from "./components";
+import { Navbar, CardHome } from "./components";
 
 // Import components from './container' folder
-import { Footer, Header, ConvertHome } from "./container";
+import { Footer, Community, Header, ConvertHome } from "./container";
 
 import "./App.css";
 
@@ -13,7 +14,7 @@ const App = () => {
       <Header />
       <ConvertHome />
       <CardHome />
-      <Flag />
+      <Community />
       <Footer />
     </div>
   );

@@ -1,11 +1,11 @@
-.convert-container {
-  /* border: 1px solid #ce3; */
+.card-container {
+  /* border: 1px solid rgb(6, 26, 206); */
   width: 65%;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .premium-container {
-  border: 1px solid rgb(19, 76, 199);
+  /* border: 1px solid rgb(19, 76, 199); */
   background-image: url("../../assets/premium.png");
   background-size: cover;
   background-repeat: no-repeat;

@@ -1,0 +1,30 @@
+.flag-container {
+  background-color: var(--deep-blue);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px auto;
+  padding: 70px 0;
+  /* height: 250px; */
+  border-radius: 10px;
+}
+
+.flags {
+  height: 5rem;
+  width: 5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flag-section:nth-child(1) {
+  background-image: url(../../assets/mask-group-28@2x.png);
+}
+.flag-section:nth-child(2) {
+  background-image: url(../../assets/mask-group-22@2x.png);
+}
+.flag-section:nth-child(3) {
+  background-image: url(../../assets/mask-group-12@2x.svg);
+}
+.flag-section:nth-child(4) {
+  background-image: url(../../assets/mask-group-11@2x.svg);
+}

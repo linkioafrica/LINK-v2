@@ -1,0 +1,27 @@
+.community-container {
+  /* border: 1px solid rgb(4, 139, 49); */
+  width: 65%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.ezra {
+  /* border: 1px solid rgb(139, 20, 4); */
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.top-sec > p:nth-child(1) {
+  margin-bottom: 30px;
+  /* border-bottom: 1px solid; */
+}
+
+.bottom-sec > p:nth-child(1) {
+  margin-bottom: 20px;
+  /* border-bottom: 1px solid; */
+}
+.bottom-sec > p:nth-child(2) {
+  margin-bottom: 30px;
+  /* border-bottom: 1px solid; */
+}
